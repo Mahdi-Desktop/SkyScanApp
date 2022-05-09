@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
   String searchLocationUrl =
       'https://www.metaweather.com/api/location/search/?query='; //To get the woeid
   String searchWeatherUrl =
-      'https://www.metaweather.com/api/location/'; //to get weather details using the woeid
+      'https://api.weatherapi.com/v1/search.json?key=b62c832a0d2d4a7abd3110509240602&q'; //to get weather details using the woeid
 
   //Get the Where on earth id
   void fetchLocation(String location) async {
